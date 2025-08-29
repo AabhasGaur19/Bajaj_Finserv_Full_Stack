@@ -31,8 +31,17 @@ exports.processData = (req, res) => {
       }
     });
 
+    const fullName = "aabhas_sahaj";  
+    const dob = "15082002";           
+    const user_id = `${fullName}_${dob}`;
+    const email = "aabhas.gaur2022@vitstudent.ac.in";
+    const roll_number = "22BCE2018";
+
     return res.status(200).json({
       is_success: true,
+      user_id,
+      email,
+      roll_number,
       odd_numbers,
       even_numbers,
       alphabets,
