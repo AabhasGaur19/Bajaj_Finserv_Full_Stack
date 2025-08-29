@@ -31,8 +31,8 @@ exports.processData = (req, res) => {
       }
     });
 
-    const fullName = "aabhas_sahaj";  
-    const dob = "15082002";           
+    const fullName = "aabhas_gaur";  
+    const dob = "19012004";           
     const user_id = `${fullName}_${dob}`;
     const email = "aabhas.gaur2022@vitstudent.ac.in";
     const roll_number = "22BCE2018";
